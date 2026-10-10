@@ -415,6 +415,53 @@ h1, h2, h3, h4 {
   border: none;
 }
 
+/* ---------- Legends / foundational texts ---------- */
+
+.legend {
+  background: var(--parchment-card);
+  border: 1px double var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px var(--shadow);
+  padding: 2rem 2.2rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.legend .legend-provenance {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  text-align: center;
+  margin: 0 0 1.4rem;
+}
+
+.legend h3 {
+  font-size: 1.35rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.legend h4 {
+  font-family: "Cinzel", serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.legend p {
+  text-align: justify;
+  margin: 0 0 1em;
+}
+
+.legend-intro {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin-bottom: 1.2rem;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
