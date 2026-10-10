@@ -425,6 +425,21 @@ h1, h2, h3, h4 {
   border-top: 1px solid var(--rule);
 }
 
+.site-footer p {
+  margin: 0.3rem 0;
+}
+
+.site-footer .footer-links a {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  border-bottom: 1px dotted var(--rule);
+}
+
+.site-footer .footer-links a:hover {
+  color: var(--maroon);
+  border-bottom-color: var(--maroon);
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 720px) {
