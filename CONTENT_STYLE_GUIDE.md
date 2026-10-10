@@ -7,7 +7,7 @@ Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least 
 - Iceholme — Dwarves
 - Srath-Sidhean — Elves
 - Thulemen's Rike — Men and Undead
-- Drosundun — Orcs
+- Drosndun — Orcs
 - Rabanastre — Men
 
 ## Rules
@@ -22,7 +22,7 @@ Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least 
 3. **Length.** Target Battle 3 ("The Storehouse Raid") as the density benchmark: several narrative paragraphs carrying setup → contact → climax → resolution, plus one full paragraph per faction in Aftermath. Do not invent facts to pad thin source notes. Instead, flag the specific gap (missing tactical detail, unclear consequence, ambiguous field, etc.) and let the author pencil it in.
 
 4. **Epithet rotation.** Name each faction plainly on first use per battle, then rotate through kingdom-derived or role-based alternatives rather than repeating the species noun every time.
-   - Drosundun orcs → raiders / the warband / the host / Drosundun's soldiery
+   - Drosndun orcs → raiders / the warband / the host / Drosndun's soldiery
    - Thulemen's Rike undead (skeletal) → raised skeletal spearmen / undead bowmen (first use, for clarity) → the risen dead / the raised dead / the dead ranks
    - Other kingdoms: apply the same principle lightly as needed (first use plain, then vary) — only orcs/skeletons have been explicitly flagged as grating so far; don't over-rotate kingdoms that haven't shown the problem.
 

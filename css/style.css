@@ -350,6 +350,30 @@ h1, h2, h3, h4 {
   font-size: 0.9rem;
 }
 
+.persons-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.persons-list li {
+  margin-bottom: 0.9rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.persons-list .person-name {
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  color: var(--maroon);
+}
+
+.persons-list .person-role {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
 .placeholder-note {
   margin-top: 0.8rem;
   font-size: 0.9rem;
