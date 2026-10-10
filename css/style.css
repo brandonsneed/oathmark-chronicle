@@ -1,0 +1,385 @@
+/* The Oathmark Chronicle — shared stylesheet */
+
+:root {
+  --parchment: #ede1c3;
+  --parchment-dark: #e2d3ab;
+  --parchment-card: #f5ead0;
+  --ink: #2c2113;
+  --ink-soft: #4a3a24;
+  --rule: #a9895f;
+  --maroon: #6e1f1f;
+  --maroon-dark: #541414;
+  --gold: #8a6a2f;
+  --shadow: rgba(44, 33, 19, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--parchment);
+  color: var(--ink);
+  font-family: "EB Garamond", "Palatino Linotype", Georgia, serif;
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse at top left, rgba(255, 250, 230, 0.5), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(120, 90, 40, 0.12), transparent 55%);
+  background-attachment: fixed;
+}
+
+a {
+  color: var(--maroon);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(110, 31, 31, 0.35);
+}
+
+a:hover {
+  color: var(--maroon-dark);
+  border-bottom-color: var(--maroon-dark);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Cinzel", "Trajan Pro", Georgia, serif;
+  color: var(--maroon);
+  letter-spacing: 0.02em;
+  margin: 0 0 0.4em 0;
+}
+
+/* ---------- Site header / nav ---------- */
+
+.site-header {
+  background: linear-gradient(180deg, var(--maroon) 0%, var(--maroon-dark) 100%);
+  border-bottom: 4px solid var(--gold);
+  padding: 1.6rem 1rem 1.2rem;
+  text-align: center;
+  box-shadow: 0 3px 10px var(--shadow);
+}
+
+.site-header .site-title {
+  color: #f3e6c4;
+  font-size: 2.4rem;
+  margin: 0;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.site-header .site-subtitle {
+  color: #d9c08f;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  margin-top: 0.3rem;
+}
+
+.site-nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: #f3e6c4;
+  border-bottom: 1px solid transparent;
+  font-family: "Cinzel", serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: #ffffff;
+  border-bottom-color: #d9c08f;
+}
+
+/* ---------- Page shell ---------- */
+
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2.2rem 1.2rem 4rem;
+}
+
+.ornate-rule {
+  border: none;
+  height: 1px;
+  margin: 2.2rem auto;
+  width: 70%;
+  background: linear-gradient(90deg, transparent, var(--rule), transparent);
+  position: relative;
+}
+
+.ornate-rule::after {
+  content: "\2756";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--gold);
+  background: var(--parchment);
+  padding: 0 0.6rem;
+  font-size: 1rem;
+}
+
+/* ---------- Timeline (index) ---------- */
+
+.year-block {
+  margin-bottom: 2.4rem;
+}
+
+.year-heading {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--rule);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.season-row {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  margin: 0.9rem 0;
+  flex-wrap: wrap;
+}
+
+.season-label {
+  font-family: "Cinzel", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  min-width: 5.5rem;
+}
+
+.battle-card {
+  background: var(--parchment-card);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  box-shadow: 0 2px 6px var(--shadow);
+  padding: 0.9rem 1.2rem;
+  flex: 1;
+  min-width: 240px;
+}
+
+.battle-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+}
+
+.battle-card .combatants {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.battle-card .hook {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+}
+
+/* ---------- Battle page ---------- */
+
+.battle-header {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.battle-header .battle-number {
+  font-family: "Cinzel", serif;
+  color: var(--gold);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.battle-header h1 {
+  font-size: 2.1rem;
+  margin: 0.25rem 0 0.2rem;
+}
+
+.battle-header .battle-date {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.battle-body {
+  display: grid;
+  grid-template-columns: minmax(0, 2.1fr) minmax(220px, 1fr);
+  gap: 2rem;
+  background: var(--parchment-card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px var(--shadow);
+  padding: 2rem;
+}
+
+.narrative p {
+  margin: 0 0 1.1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.narrative p:first-child::first-letter {
+  font-family: "Cinzel", serif;
+  font-size: 2.6rem;
+  color: var(--maroon);
+  float: left;
+  line-height: 0.8;
+  padding: 0.05em 0.08em 0 0;
+}
+
+.technical {
+  border-left: 1px dashed var(--rule);
+  padding-left: 1.6rem;
+}
+
+.technical h2 {
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.9rem;
+}
+
+.technical dl {
+  margin: 0;
+}
+
+.technical dt {
+  font-family: "Cinzel", serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: 1rem;
+}
+
+.technical dt:first-child {
+  margin-top: 0;
+}
+
+.technical dd {
+  margin: 0.15rem 0 0;
+  color: var(--ink);
+}
+
+.aftermath {
+  margin-top: 2.2rem;
+  background: var(--parchment-card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px var(--shadow);
+  padding: 2rem;
+}
+
+.aftermath h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.aftermath p {
+  margin: 0 0 1.1em;
+  text-align: justify;
+}
+
+.faction-tag {
+  font-family: "Cinzel", serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.battle-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-family: "Cinzel", serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ---------- Kingdom pages ---------- */
+
+.kingdom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.kingdom-card {
+  background: var(--parchment-card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px var(--shadow);
+  padding: 1.4rem;
+  text-align: center;
+}
+
+.kingdom-card .crest {
+  width: 54px;
+  height: 64px;
+  margin: 0 auto 0.7rem;
+  background: var(--maroon);
+  clip-path: polygon(50% 0%, 100% 20%, 100% 65%, 50% 100%, 0% 65%, 0% 20%);
+  box-shadow: inset 0 0 0 2px rgba(243, 230, 196, 0.5);
+}
+
+.kingdom-card h3 {
+  margin-bottom: 0.1rem;
+}
+
+.kingdom-card .race {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.placeholder-note {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 720px) {
+  .battle-body {
+    grid-template-columns: 1fr;
+  }
+  .technical {
+    border-left: none;
+    border-top: 1px dashed var(--rule);
+    padding-left: 0;
+    padding-top: 1.2rem;
+  }
+  .site-header .site-title {
+    font-size: 1.8rem;
+  }
+}
