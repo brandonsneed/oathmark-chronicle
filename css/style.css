@@ -398,6 +398,23 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+/* ---------- Submit a Note ---------- */
+
+.form-frame {
+  background: var(--parchment-card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px var(--shadow);
+  padding: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.form-frame iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
