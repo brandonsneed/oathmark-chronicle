@@ -1,6 +1,6 @@
 # Oathmark Chronicle — Content Style Guide
 
-Calendar: regnal year of the Elf Queen (currently unnamed — substitute her name once chosen).
+Calendar: regnal year of Queen Clíodhna of Srath-Sidhean.
 Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least likely. Some years get extra/out-of-sequence battles, including multi-battle sequences (e.g. military expansions).
 
 ## Kingdoms
@@ -32,8 +32,7 @@ Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least 
 
 6. **Unnamed characters.** Fine and expected when players haven't named them yet. Never invent names to fill the gap — leave them as role-described (e.g. "the sorceress," "the dwarf captain").
 
-7. **Default pronoun.** Default to male pronouns for unnamed combatants unless a character is specifically established as female. (No female characters are currently in use across the chronicle; avoid introducing gendered ambiguity for the reader.)
+7. **Default pronoun.** Default to male pronouns for unnamed combatants unless a character is specifically established as female (e.g. Queen Clíodhna, the various unnamed elf sorceresses). Don't introduce gendered ambiguity for the reader by guessing.
 
 ## Open items
-- Elf Queen's name — TBD, currently referred to only by title.
 - Confirm whether "Elfish subterranean construction" / "Kennels" etc. map to formal Oathmark kingdom-sheet building names consistently, or are chronicle-only flavor layered on top of mechanical results.
