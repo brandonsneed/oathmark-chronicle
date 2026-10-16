@@ -10,6 +10,9 @@ Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least 
 - Drosndun — Orcs
 - Rabanastre — Men
 
+## Lore notes
+- Srath-Sidhean's garrisons are hidden, not built up as visible forts: woven into high boughs, sheltered behind waterfalls, delved into rock — never a conspicuous structure. Reach for this imagery whenever elf soldiers are described mustering or being drawn from a holding.
+
 ## Rules
 
 1. **Voice.** Third person, past tense, authoritative. ~15% King James Bible lift — "it came to pass," syntactic inversion, "for"/"yet" as connectors, elevated but plain-spoken diction. No deliberate rhyme or forced cadence. Not inaccessible — clear and sophisticated, not pastiche (avoid thee/thou/"loins"-level archaism).
