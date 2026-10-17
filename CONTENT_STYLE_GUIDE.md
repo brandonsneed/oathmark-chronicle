@@ -3,6 +3,8 @@
 Calendar: regnal year of Queen Clíodhna of Srath-Sidhean.
 Max one battle per season typically (Spring/Summer/Autumn/Winter), winter least likely. Some years get extra/out-of-sequence battles, including multi-battle sequences (e.g. military expansions).
 
+Setting name: "Oathmark" is the ruleset's name, not the land's. The in-fiction land is **the Reaches** (generic working name, used site-wide) — except for Drosndun's orcs, who call it **Herkland** among themselves (after Herkir, the High Tyrant's claimed bloodline). Never call the setting itself "Oathmark" in chronicle prose or page copy.
+
 ## Kingdoms
 - Iceholme — Dwarves
 - Srath-Sidhean — Elves
