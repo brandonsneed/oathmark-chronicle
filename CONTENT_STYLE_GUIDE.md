@@ -39,5 +39,17 @@ Setting name: "Oathmark" is the ruleset's name, not the land's. The in-fiction l
 
 7. **Default pronoun.** Default to male pronouns for unnamed combatants unless a character is specifically established as female (e.g. Queen Clíodhna, the various unnamed elf sorceresses). Don't introduce gendered ambiguity for the reader by guessing.
 
+8. **Rhythm budget.** Most emphatic constructions do the same job (set up an expectation, then flip or delay it), so overusing them makes every paragraph land on the same beat. Per entry:
+   - At most **one** reversal: "not X but Y", "less X than Y", "rather than". Never in the opening paragraph.
+   - At most **one** cleft sentence: "It was X that/who…".
+   - Roughly **one em-dash per paragraph**, at most. Prefer a comma, a colon, or a new sentence.
+   - Archaic seasoning, **once each** at most: "X and Y alike", trailing "both", "grown it has" inversions, "in equal measure", "it seems / it is said", "Yet" as a sentence opener.
+
+9. **Interest comes from content, not syntax.** Reach for concrete specifics (numbers, objects, places, a reported phrase) and deliberate sentence-length variation. A short sentence after long ones hits harder than any construction ("He woke." in Battle 4 is the model). Put a contrast in two separate sentences instead of packing both halves into one.
+
+10. **Vary paragraph shape.** No more than two consecutive paragraphs opening with a time/place adverbial or "It was". Don't end consecutive paragraphs on a wry aphorism or epigram.
+
+11. **Past tense throughout**, including campaign intros and setup pieces.
+
 ## Open items
 - Confirm whether "Elfish subterranean construction" / "Kennels" etc. map to formal Oathmark kingdom-sheet building names consistently, or are chronicle-only flavor layered on top of mechanical results.
