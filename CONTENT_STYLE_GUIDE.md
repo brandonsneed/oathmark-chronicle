@@ -14,6 +14,8 @@ Setting name: "Oathmark" is the ruleset's name, not the land's. The in-fiction l
 
 ## Lore notes
 - Srath-Sidhean's garrisons are hidden, not built up as visible forts: woven into high boughs, sheltered behind waterfalls, delved into rock — never a conspicuous structure. Reach for this imagery whenever elf soldiers are described mustering or being drawn from a holding.
+- **Sobekin**: Rabanastre's crocodile-ogre levies (Nile-croc ogre-men, raised on the riverside flats). Gloss the word on first use in an entry.
+- **Eachy**: semi-aquatic mountain lake trolls with stony skin. Innsjøkongen, the Lake King, is one; his kin fight for Iceholme under the Battle 5 alliance.
 
 ## Rules
 
