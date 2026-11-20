@@ -40,7 +40,7 @@ Setting name: "Oathmark" is the ruleset's name, not the land's. The in-fiction l
 7. **Default pronoun.** Default to male pronouns for unnamed combatants unless a character is specifically established as female (e.g. Queen Clíodhna, the various unnamed elf sorceresses). Don't introduce gendered ambiguity for the reader by guessing.
 
 8. **Rhythm budget.** Most emphatic constructions do the same job (set up an expectation, then flip or delay it), so overusing them makes every paragraph land on the same beat. Per entry:
-   - At most **one** reversal: "not X but Y", "less X than Y", "rather than". Never in the opening paragraph.
+   - At most **one** reversal: "not X but Y", "less X than Y", "rather than", "What X became, instead, Y". Never in the opening paragraph.
    - At most **one** cleft sentence: "It was X that/who…".
    - Roughly **one em-dash per paragraph**, at most. Prefer a comma, a colon, or a new sentence.
    - Archaic seasoning, **once each** at most: "X and Y alike", trailing "both", "grown it has" inversions, "in equal measure", "it seems / it is said", "Yet" as a sentence opener.
